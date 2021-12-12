@@ -1,0 +1,165 @@
+
+header{
+	position:fixed;
+	/* display: inline-flex; */
+ 	background-color: #E88B8B90;
+ 	width: 100%;
+ 	height: 80px;
+ 	/* padding-left:40px; */
+ 	/* padding-top:20px; */
+  margin: 0px;
+  padding: 0px;
+ }
+
+#wineCategory{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 17vh;
+
+	align: center;
+  border-collapse: collapse;
+  transform: rotate(45deg);
+}
+
+table{
+
+}
+
+.cell{
+  width: 12%;
+  border: 3px solid #Bd6d6d;
+  margin: 0px;
+  transform: rotate(-45deg);
+  /* padding: 40px; */
+}
+
+#redCat{
+  border-top: 0;
+  border-left: 0;
+  /* padding-right: 15px; */
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+#whiteCat{
+  border-top: 0;
+  border-right: 0;
+  /* padding-bottom: 35px; */
+
+}
+
+#sparklingCat{
+  border-bottom: 0;
+  border-right: 0;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+#roseCat{
+  border-bottom: 0;
+  border-left: 0;
+  /* padding-bottom: 35px; */
+}
+
+#redList{
+  position:fixed;
+  text-align: left;
+  margin-top:150px;
+  margin-left: 60px;
+  border: 3px solid black;
+  padding: 20px;
+  display: flex;
+}
+
+.winelist{
+  margin: 60px;
+  margin-top: 65px;
+  display:flex;
+  padding-left: 0px;
+  /* position: fixed; */
+
+}
+.wine_details{
+  position:relative;
+  border: solid black;
+  padding: 15px;
+  margin:20px;
+	/* margin-top:10px; */
+  background-color: #FFFFFF90;
+  width: 468px;
+  /* width:150px; */
+  /* max-width: 400px; */
+  text-align: left;
+	padding-left: 40px;
+  display:flex;
+	max-height: 1000px;
+}
+
+p{
+	padding-bottom: 10px;
+}
+
+.wine_details_hover{
+  position:absolute;
+  /* border: solid black; */
+  padding: 5px;
+	padding-bottom: 0px;
+  /* margin: 30px; */
+  background-color: #FFFFFF90;
+  width: inherit;
+  /* width:4; */
+  /* max-width: 400px; */
+  text-align: center;
+  /* position: relative; */
+  /* display:flex; */
+  /* visibility: hidden;
+  display:block; */
+	top:10px;
+	right: 10px;
+
+}
+
+/* .wine_details_hover{
+  opacity: 0;
+  position: absolute;
+  max-width: 300px;
+  margin-left:150px;
+  border: solid red;
+}
+
+.wine_details_hover:hover{
+  opacity: 1;
+  position: absolute;
+  max-width: 300px;
+  margin-left:150px;
+} */
+
+#wine_icon1{
+	padding-top:4px;
+	padding-bottom:10px;
+  font-size: 25px;
+  /* color: #Bd6d6d; */
+  color: #b82153;
+}
+
+#backToMenu_Button{
+  margin-top: 46vh;
+  font-size:60px;
+  /* color: #Bd6d6d;
+  color:#5F021F;
+  color:#9C0945;
+  color:#820D2D;
+  color: #990033;
+  color: #ab2a55; */
+  color: #b82153;
+  /* color: #E88B8B; */
+  position: fixed;
+}
+
+.wine_img{
+  height:65vh;
+}
+
+button{
+  padding: 10px 5px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Shippori+Antique&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <!-- <i class="fas fa-store-alt"></i> -->
+        <a href="index.html"><img src="logo-cover2-trans.png" id="logoheaderhome" alt="this is the logo"></a>
+      </div>
+
+      <div class="list">
+        <ul>
+          <li> <a href="signup.html">Signup</a></li>
+          <li> <a href="login.html">Login</a></li>
+          <li> <a href="cart.html">Cart</a> </li>
+        </ul>
+      </div>
+    </header><br>
+
+    <div style="margin-left: 40px">
+      <div id="backToMenu_Button">
+        <a href= "shop.html"> <i class="fas fa-chevron-circle-left"></i>
+          <!-- style="background-color: blue;" -->
+        </a>
+      </div>
+      <br>
+
+      <div id="redlist" class="winelist" style="margin-left: 7vw; max-width:100vw; display: flex; flex-wrap:wrap;">
+
+        <div class="wine_details" id="redwine_1">
+          <div><img src="https://images.vivino.com/thumbs/j8oDyZplQ3GJkUrUyVyIaA_pb_x600.png" class="wine_img">
+            <br>
+
+            <!-- <button type="button" class="moreinfo" data-toggle="collapse" data-target="#redwine_1_details">Details</button> -->
+            <div id="redwine_1_details" class="wine_details_hover" class="collapse in" >
+              <!-- <br> -->
+              <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+              <p>Les Bécasses 2018 <br> M. Chapoutier</p>
+              <p>Côte-rôtie, Rhone Valley, France</p>
+              <p>Varietal: Shiraz</p>
+              <p>Vol: 750ml</p>
+              <p>Character: Tannic, Bold</p>
+              <p>Flavour profile: black fruit, oaky, smoky</p>
+              <p>Food pairing suggestion: game</p>
+              <p>Price: Rs 3710</p>
+              <button class="btn cart-btn" onclick="add_to_cart(redwine_1)">add to cart</button>
+              <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="wine_details" id="redwine_2">
+          <div><img src="https://images.vivino.com/thumbs/c1SE-xBESFirhNw96jwuxw_pb_x600.png" class="wine_img">
+          <br>
+          <div id="redwine_2_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Grand cru classé de Graves 2015<br>Chateau Pape Clément</p>
+            <p>Pessac-Leognan, Bordeaux, France</p>
+            <p>Varietal: Cabernet Sauvignon, Merlot</p>
+            <p>Vol: 750ml</p>
+            <p>Character: Dry, Tannic, Bold</p>
+            <p>Flavour profile: Oaky, Earthy, Black fruit</p>
+            <p>Food pairing suggestion: Beef</p>
+            <p>Price: Rs 5675</p>
+            <button class="btn cart-btn" onclick="add_to_cart(redwine_2)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+        <div class="wine_details" id="redwine_3">
+          <div><img src="https://images.vivino.com/thumbs/fC6vyIS7TIOzF6dPKhiJVA_pb_x600.png" class="wine_img">
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+            <div id="redwine_3_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Yellow Tail 2019<br>Casella Wine</p>
+            <p>Yenda, SE Australia, Australia</p>
+            <p>Varietal: Shiraz</p>
+            <p>Vol: 750ml</p>
+            <p>Character: Bold, Tannic, Acidic</p>
+            <p>Flavour profile: Oaky, Black fruit, Red fruit</p>
+            <p>Food pairing suggestion: Spicy food</p>
+            <p>Price: Rs 320</p>
+            <button class="btn cart-btn" onclick="add_to_cart(redwine_3)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="wine_details" id="redwine_4">
+          <div><img src="https://images.vivino.com/thumbs/tIyFLXbpRLeSmH4Q6yTzYA_pb_x600.png" class="wine_img">
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+            <div id="redwine_4_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Pinotage 2017<br>Beyerskloof</p>
+            <p>Stellenbosch, Western Cape, South Africa</p>
+            <p>Varietal: Pinotage</p>
+            <p>Vol: 750ml</p>
+            <p>Character: Bold, Tannic, Acidic</p>
+            <p>Flavour profile: Oaky, Black fruit, Earthy</p>
+            <p>Food pairing suggestion: Lamb </p>
+            <p>Price: Rs 786</p>
+            <button class="btn cart-btn" onclick="add_to_cart(redwine_4)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="winelist.js" charset="utf-8"></script>
+
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Shippori+Antique&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <!-- <i class="fas fa-store-alt"></i> -->
+        <a href="index.html"><img src="logo-cover2-trans.png" id="logoheaderhome" alt="this is the logo"></a>
+      </div>
+
+      <div class="list">
+        <ul>
+          <li> <a href="signup.html">Signup</a></li>
+          <li> <a href="login.html">Login</a></li>
+          <li> <a href="cart.html">Cart</a> </li>
+        </ul>
+      </div>
+    </header><br>
+
+    <div style="margin-left: 40px">
+      <div id="backToMenu_Button">
+        <a href= "shop.html"> <i class="fas fa-chevron-circle-left"></i>
+          <!-- style="background-color: blue;" -->
+        </a>
+      </div>
+      <br>
+
+      <div id="roselist" class="winelist" style="margin-left: 7vw; max-width:100vw; display: flex; flex-wrap:wrap;">
+         <!-- border: solid red;  -->
+        <!-- <p>This is my red list</p> -->
+        <div class="wine_details" id="rosewine_1">
+          <div><img src="https://images.vivino.com/thumbs/ThhR8m6ZRJS65KhiZW1BeQ_pb_x600.png" class="wine_img">
+            <div id="rosewine_1_details" class="wine_details_hover" class="collapse in" >
+              <!-- <br> -->
+              <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+              <p>La Note Bleue <br>Vignerons de la Presqu'ile de Saint-Tropez</p>
+              <p>Côte de Provence, Provence, France</p>
+              <p>Varietal: Grenache blend</p>
+              <!--  Cinsault, Carignan, Syrah, Mourvedre -->
+              <p>Vol: 750ml</p>
+              <p>Character: Dry, Acidic, Medium Body</p>
+              <p>Flavour profile: Red fruit, Citrus fruit, Tree fruit</p>
+              <p>Food pairing suggestion: Pork</p>
+              <p>Price: Rs 500</p>
+              <button class="btn cart-btn" onclick="add_to_cart(rosewine_1)">add to cart</button>
+              <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+        <div class="wine_details" id="rosewine_2">
+          <div><img src="https://images.vivino.com/thumbs/poJMGM7bTFug_jGWtSFeRg_pb_x600.png" class="wine_img">
+            <div id="rosewine_2_details" class="wine_details_hover" class="collapse in" >
+              <!-- <br> -->
+              <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+              <p>Rosé 2019<br> Decoy</p>
+              <p>Alexander Valley, California, USA</p>
+              <p>Varietal: Shiraz, Vermentino, Pinot Noir</p>
+              <!--  Cinsault, Carignan, Syrah, Mourvedre -->
+              <p>Vol: 750ml</p>
+              <p>Character: Well balanced</p>
+              <p>Flavour profile: Red fruit, Citrus fruit</p>
+              <p>Food pairing suggestion: Appetizers</p>
+              <p>Price: Rs 1400</p>
+              <button class="btn cart-btn" onclick="add_to_cart(rosewine_2)">add to cart</button>
+              <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+          <!-- <div><img src="https://images.vivino.com/thumbs/qr5a3nAzTyqpelPcJp9blw_pb_x600.png" class="wine_img"></div> -->
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+        <!-- <div class="wine_details" id="rosewine_3"> -->
+          <!-- <div><img src="https://images.vivino.com/thumbs/9j14R5y3RRWN_DZZi4-WSQ_pb_x600.png" class="wine_img"></div> -->
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        <!-- </div> -->
+
+        <!-- <div class="wine_details" id="rosewine_4"> -->
+          <!-- <div><img src="https://images.vivino.com/thumbs/cTh4KQL0TBOoLFbuNZVPzA_pb_x600.png" class="wine_img"></div> -->
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        <!-- </div> -->
+
+      </div>
+    </div>
+
+    <script src="winelist.js" charset="utf-8"></script>
+
+  </body>
+</html>

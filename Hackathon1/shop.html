@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Our selection</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Shippori+Antique&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <!-- <i class="fas fa-store-alt"></i> -->
+        <a href="index.html"><img src="logo-cover2-trans.png" id="logoheaderhome" alt="this is the logo"></a>
+      </div>
+
+      <div class="list">
+        <ul>
+          <li> <a href="signup.html">Signup</a></li>
+            <!-- target="_blank" -->
+          <li> <a href="login.html">Login</a></li>
+            <!-- target="_blank" -->
+          <li> <a href="cart.html">Cart</a> </li>
+        </ul>
+      </div>
+    </header><br>
+
+    <!-- Wine Menu -->
+    <table id="wineCategory">
+      <!-- <caption style="color: red; border: 1px solid red; margin-bottom: 15px">
+        <b>The difference between Characteristics and Behaviour</b>
+      </caption> -->
+      <tr>
+        <th class="cell" id="redCat"><a href="redlist.html"><img src="redcolor1.png" style="width: 230px" id="redtitle" onclick="displayRedList()"></a></th>
+        <th class="cell" id="whiteCat"><a href="whitelist.html"><img src="whitecolor2.png" style="width: 230px"></a></th>
+      </tr>
+      <tr>
+        <th class="cell" id="roseCat"><a href="roselist.html"><img src="rosecolor1.png" style="width: 230px"></a></th>
+        <th class="cell" id="sparklingCat"><a href="sparklinglist.html"><img src="sparklecolor1.png" style="width: 230px; border-radius: 150px;"></a></th>
+      </tr>
+    </table><br>
+
+    <!-- RED LIST -->
+    <!-- <a href="redlist.html">
+      <div id="redList" class="wineList" style="visibility: hidden">
+      </div>
+    </a> -->
+
+
+    <script src="winelist.js" charset="utf-8"></script>
+
+  </body>
+</html>
