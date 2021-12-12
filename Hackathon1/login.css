@@ -1,0 +1,58 @@
+.login_details{
+  /* position:relative; */
+  border: solid black;
+  padding: 30px;
+  margin: 30px;
+  background-color: #FFFFFF90;
+  width: 50vw;
+  /* max-width: 150px; */
+  text-align: center;
+  position: relative;
+}
+
+
+input{
+  padding-left: 5px;
+  font-family: 'BenchNine', sans-serif;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.input-box{
+  margin:10px;
+}
+
+.results{
+   display: inline-block;
+   border: none;
+   background-color: #E88B8B;
+   border-radius: 4px;
+
+   font-family: 'BenchNine', sans-serif;
+   font-family: 'Shippori Antique', sans-serif;
+   font-size: 19px;
+   text-align: center;
+
+   padding: 10px 15px;
+   width: 100%;
+
+   margin-bottom: 10%;
+
+   opacity: 0.9;
+   cursor: pointer;
+
+   transition: all 0.5s;
+ }
+
+#login_button:hover{
+   opacity: 1;
+ }
+
+
+.social{
+  font-size: 30px;
+}
+
+.social_login{
+  margin-left: 2px;
+  margin-right: 2px;
+}
