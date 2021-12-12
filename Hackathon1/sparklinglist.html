@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Shippori+Antique&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <!-- <i class="fas fa-store-alt"></i> -->
+        <a href="index.html"><img src="logo-cover2-trans.png" id="logoheaderhome" alt="this is the logo"></a>
+      </div>
+
+      <div class="list">
+        <ul>
+          <li> <a href="signup.html">Signup</a></li>
+          <li> <a href="login.html">Login</a></li>
+          <li> <a href="cart.html">Cart</a> </li>
+        </ul>
+      </div>
+    </header><br>
+
+    <div style="margin-left: 40px">
+      <div id="backToMenu_Button">
+        <a href= "shop.html"> <i class="fas fa-chevron-circle-left"></i>
+          <!-- style="background-color: blue;" -->
+        </a>
+      </div>
+      <br>
+
+      <div id="sparklinglist" class="winelist" style="margin-left: 7vw; max-width:100vw; display: flex; flex-wrap:wrap;">
+        <!-- border: solid red; -->
+        <!-- <p>This is my red list</p> -->
+        <div class="wine_details" id="sparklingwine_1">
+          <div><img src="https://images.vivino.com/thumbs/x-vV6RtTTCqV27NoJ69GBw_pb_x600.png" class="wine_img">
+            <div id="sparklingwine_1_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Lambrusco 2020<br>Riunite</p>
+            <p>Emilia, Italia</p>
+            <p>Varietal: Lambrusco</p>
+            <p>Vol: 750ml</p>
+            <p>Character: Bold, Tannic, Acidic</p>
+            <p>Flavour profile: Red fruit, Black fruit, Oaky</p>
+            <p>Food pairing suggestion: Pizza</p>
+            <p>Price: Rs 300</p>
+            <button class="btn cart-btn" onclick="add_to_cart(sparklingwine_1)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+        <div class="wine_details" id="sparklingwine_2">
+          <div><img src="https://images.vivino.com/thumbs/dO9M6Y5kS6e4hErJ7hWevQ_pb_x600.png" class="wine_img">
+            <div id="sparklingwine_2_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Crémant de Loire NV<br>LaCheteau</p>
+            <p>Loire valley, France</p>
+            <p>Varietal: Chenin Blanc blend</p>
+            <!-- , Carbernet Franc, Chardonnay -->
+            <p>Vol: 750ml</p>
+            <p>Character: Acidic</p>
+            <p>Flavour profile: Tree fruit, Citrus fruit, Yeasty</p>
+            <p>Food pairing suggestion: Shellfish</p>
+            <p>Price: Rs 800</p>
+            <button class="btn cart-btn" onclick="add_to_cart(sparklingwine_2)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+        <!-- <div class="wine_details" id="sparklingwine_3">
+          <div><img src="https://images.vivino.com/thumbs/a9VVL0mKTUKKkvRfGI79tw_pb_x600.png" class="wine_img"></div>
+          <! <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        <!-- </div> -->
+
+        <!-- <div class="wine_details" id="sparklingwine_4">
+          <div><img src="https://images.vivino.com/thumbs/eeXbNf_2RYW8Bayn0Yb87g_pb_x600.png" class="wine_img"></div>
+          <! <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        <!-- </div> -->
+
+      </div>
+    </div>
+
+    <script src="winelist.js" charset="utf-8"></script>
+
+  </body>
+</html>

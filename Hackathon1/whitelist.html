@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Shippori+Antique&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <!-- <i class="fas fa-store-alt"></i> -->
+        <a href="index.html"><img src="logo-cover2-trans.png" id="logoheaderhome" alt="this is the logo"></a>
+      </div>
+
+      <div class="list">
+        <ul>
+          <li> <a href="signup.html">Signup</a></li>
+          <li> <a href="login.html">Login</a></li>
+          <li> <a href="cart.html">Cart</a> </li>
+        </ul>
+      </div>
+    </header><br>
+
+    <div style="margin-left: 40px">
+      <div id="backToMenu_Button">
+        <a href= "shop.html"> <i class="fas fa-chevron-circle-left"></i>
+          <!-- style="background-color: blue;" -->
+        </a>
+      </div>
+      <br>
+
+      <div id="whitelist" class="winelist" style="margin-left: 7vw; max-width:100vw; display: flex; flex-wrap:wrap;">
+        <!-- border: solid red -->
+        <!-- <p>This is my red list</p> -->
+        <div class="wine_details" id="whitewine_1">
+          <div><img src="https://images.vivino.com/thumbs/gfYmT49CSx23wZIkFR4Jlg_pb_x600.png" class="wine_img">
+            <div id="whitewine_1_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Dona Dominga 2017<br>Casa Silva</p>
+            <p>Colachagua Valley, Central Chile, Chile</p>
+            <p>Varietal: Chardonnay, Semillon</p>
+            <p>Vol: 750ml</p>
+            <p>Character: Strong body, Balanced acidity</p>
+            <p>Flavour profile: Tropical fruit, Tree fruit</p>
+            <p>Food pairing suggestion: Risotto</p>
+            <p>Price: Rs 300</p>
+            <button class="btn cart-btn" onclick="add_to_cart(whitewine_1)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+        <div class="wine_details" id="whitewine_2">
+          <div><img src="https://images.vivino.com/thumbs/qr5a3nAzTyqpelPcJp9blw_pb_x600.png" class="wine_img">
+            <div id="whitewine_2_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Pinot Gris 2017<br>Arthur Metz</p>
+            <p>Vin d'Alsace, France</p>
+            <p>Varietal: Pinot gris</p>
+            <p>Vol: 750ml</p>
+            <p>Character: Well balanced</p>
+            <p>Flavour profile: Tree fruit, Earthy, Citrus fruit</p>
+            <p>Food pairing suggestion: Sushi</p>
+            <p>Price: Rs 830</p>
+            <button class="btn cart-btn" onclick="add_to_cart(whitewine_2)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+        <div class="wine_details" id="whitewine_3">
+          <div><img src="https://images.vivino.com/thumbs/9j14R5y3RRWN_DZZi4-WSQ_pb_x600.png" class="wine_img">
+            <div id="whitewine_3_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Premier Grand Cru Classé<br>Chateau Lafaurie-Peyraguey</p>
+            <p>Sauternes, Bordeaux, France</p>
+            <p>Varietal: Semillon, Sauvignon, Muscadelle</p>
+            <p>Vol: 375ml</p>
+            <p>Character: Sweet wine</p>
+            <p>Flavour profile: Earthy, Tree fruit, Citrus fruit</p>
+            <p>Food pairing suggestion: Foie Gras</p>
+            <p>Price: Rs 1310</p>
+            <button class="btn cart-btn" onclick="add_to_cart(whitewine_3)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+        <div class="wine_details" id="whitewine_4">
+          <div><img src="https://images.vivino.com/thumbs/cTh4KQL0TBOoLFbuNZVPzA_pb_x600.png" class="wine_img">
+            <div id="whitewine_4_details" class="wine_details_hover" class="collapse in" >
+            <!-- <br> -->
+            <span><i class="fas fa-wine-glass-alt" id="wine_icon1"></i></span><br>
+            <p>Lexia Moscato<br>Alice White</p>
+            <p>SE Australia, Australia</p>
+            <p>Varietal: Moscato</p>
+            <p>Vol: 750ml</p>
+            <p>Character: Light body, Off-dry</p>
+            <p>Flavour profile: Tree fruit, Tropical fruit</p>
+            <p>Food pairing suggestion: Cheese</p>
+            <p>Price: Rs 400</p>
+            <button class="btn cart-btn" onclick="add_to_cart(whitewine_4)">add to cart</button>
+            <!-- <button class="btn wishlist">add to wishlist</button> -->
+            </div>
+          </div>
+          <!-- <i class="fas fa-wine-glass-alt" id="wine_icon1"></i> -->
+        </div>
+
+      </div>
+    </div>
+
+    <script src="winelist.js" charset="utf-8"></script>
+
+  </body>
+</html>
